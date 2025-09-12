@@ -23,6 +23,7 @@ It integrates with **Google Gemini (Flash 2.5 Lite)** to generate structured rec
 
 ## 📂 Project Structure
 
+```
 PantryPal-Backend/
 │── node_modules/
 │── server.js
@@ -30,6 +31,7 @@ PantryPal-Backend/
 │── .env
 │── package.json
 │── package-lock.json
+```
 
 ---
 
@@ -65,7 +67,7 @@ npm run dev
 
 ## 📡 API Endpoint
 
-`POST /api/recipes`
+`POST /recipes`
 
 Generate recipes based on available ingredients.
 
