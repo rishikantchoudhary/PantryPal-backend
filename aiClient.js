@@ -24,7 +24,7 @@ async function generateRecipe(ingredients) {
             properties: {
               recipeName: { type: Type.STRING },
               servings: { type: Type.NUMBER },
-              estimatedTime: { type: Type.STRING },
+              estimatedTime: { type: Type.NUMBER },
               ingredientsYouHave: {
                 type: Type.ARRAY,
                 items: { type: Type.STRING },
