@@ -47,6 +47,11 @@ app.post('/recipes', async (req, res) => {
   }
 })
 
+// just to ping the backend, to keep the server awake on render free tier
+app.get('/ping', (req, res) => {
+  res.send('Awake!!')
+})
+
 app.listen(PORT, () => {
   console.log(`✅ Server running at http://localhost:${PORT}`)
 })
